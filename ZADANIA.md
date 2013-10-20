@@ -53,3 +53,25 @@ main() {
 
 }
 ```
+ZADANIE 3 - rowzne obliczanie oraz n-ta potega dwojki
+
+```c
+main(){
+  int n=66;
+  int i=0;
+  int iloczyn=0;
+  int n1, n2,n3;
+  n1=5+3*8/2-3;
+  n2=2%2+2*2-2/2;
+  n3=2*4*(5+9/2);
+  printf("N1: %d  N2: %d  N3:  %d \n",n1,n2,n3);
+  printf("Podaj N: ");
+  scanf("%d",&n);
+  if(n>0)  for(i=1;i<=n;i=i+1){
+    iloczyn=iloczyn+i*i;
+  }
+  else printf("LICZBA MUSI BYC WIEKSZA od 0");
+  printf("Suma iloczynow: %d ",iloczyn);
+}
+```
+
