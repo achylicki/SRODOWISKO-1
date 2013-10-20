@@ -11,3 +11,6 @@ for(i=4,i>=0,i=i+1) printf(" %i ", tabela[i]);
 return 0;
 }
 ```
+```sh
+ls -l
+```
