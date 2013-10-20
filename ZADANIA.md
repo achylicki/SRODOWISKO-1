@@ -74,4 +74,20 @@ main(){
   printf("Suma iloczynow: %d ",iloczyn);
 }
 ```
+ZADANIE 4- prosi o podanie elementow tablicy (max 50). Jezeli bedzie zero, wtedy konczymy i pokazujemy w odwrotnej kolejnosci.
 
+```c
+main(){
+  int i=0,liczba=1;
+  int tablica[50];
+  while(liczba!=0){
+    printf("Podaj element numer %d :", i);
+    scanf("%d",&liczba);
+    tablica[i]=liczba;
+    printf("Element %i = %i\n",i,liczba);
+    i++;
+  }
+  printf("WYPISUJE!\n");
+  for(i=i-2;i>=0;i--) printf(" Element %i = %i\n",i,tablica[i]);
+}
+```
