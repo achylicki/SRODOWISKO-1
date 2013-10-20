@@ -96,11 +96,11 @@ ZADANIE 5 - zamiana na system dwojkowy
 ```c
 #include <stdio.h>
 main(){
-int liczba=9;
+int liczba=8;
 int i;
 int wynik[20];
-/*printf("Podaj liczbę w systemie 10");*/
-/*scanf("%i",&liczba);*/
+printf("Podaj liczbę w systemie 10: ");
+scanf("%i",&liczba);
 i=0;
 while(liczba!=0)
 {
@@ -115,4 +115,5 @@ for(i=i-1;i>=0;i--) printf(" %i ",wynik[i]);
 
 
 }
+
 ```
