@@ -197,20 +197,23 @@ main()
 ```
 zad 8
 ```c
-/*napisac program ktory wczytuje liczbe calkowita >=0 a nastepnie n liczb rzeczywistych (double %lf) i drukuje te liczby w trzech kolumnach w taki sposob, zeby zachowac krycie (tzn  kropka dziesietna zawsze byla w tych samych kolumnach) np.gdy uzytkownik poda 7 0.12 -31.5 2.5 -59.01 26.4 -12.0 8.3*/
-
 #include <stdio.h>
 main()
 {
-  int n,n2;
-  prinf ("podaj liczbe \n");
-  scanf ("%d", &n);
-  printf ("podaj druga liczbe \n");
-  scanf ("%d", &n2);
-
-  if(n=n)
-    printf ("liczby %d  sa rowne \n",n,n2);
-    else
-      printf ("liczby %d sa rozne od siebie \n",n,n2);
+ int n;
+ int i;
+  printf ("podaj n\n");
+  scanf ("%i", &n);
+  //deklaracja tablicy
+  double tab[n];
+  //petla wczytujaca dane do tablicy
+  for (i=0;i<n;i++)
+    scanf ("%lf", &tab[i]);
+  //petla wypisujaca dane z tablicy
+  for (i=0;i<n;i++){
+    printf("%2.5lf\n",tab[i]);
+  if(i%3==2)
+    printf("\n");
+  }
 }
-
+```
