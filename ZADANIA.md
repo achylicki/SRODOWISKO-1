@@ -286,3 +286,36 @@ main()
 }
 ```
 #ZADANIA Z KARTKI - ZADANIA Z JEZYKA C (pętle i tabele - zadania elementarne)
+
+zle zad.1
+```c
+#include <stdio.h>
+int main()
+{
+int tab[]={1,3,7,8,9};
+ int i;
+
+ for (i=0;i<=4;i++){
+   printf("%d", &tab[i]);
+ }
+}
+```
+zle zad 5
+```c
+#include <stdio.h>
+int main(){
+int tab[5];
+int i;
+
+//wczytywanie danych do tabeli
+for (i=0;i<=4;i++);
+scanf("%i", &tab[i]);
+//wypisywanie danych z tabeli
+for (i=0;i<=4;i++){
+  printf("i",tab[i]);
+ }
+if(n<=o)
+  printf("%lf");
+ }
+}
+```
