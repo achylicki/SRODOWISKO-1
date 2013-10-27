@@ -118,6 +118,8 @@ for(i=i-1;i>=0;i--) printf(" %i ",wynik[i]);
 
 ```
 #Zajecia 3 niedziela
+
+zad.1
 ```c
 /*Wczyta liczbe calkowita i wypisze czy jest wieksza od 5*/
 
@@ -134,6 +136,7 @@ main()
     printf ("liczba %d jest mniejsza lub rowna 5\n",liczba);
 }
 ```
+zad.2
 ```c
 /*Wczyta liczbe calkowita i wypisze czy jest dodatnia,ujemna czy rowna 0*/
 
@@ -153,6 +156,7 @@ main()
  return 0;
 }
 ```
+zad.3
 ```c
 /*Wczyta liczbe calkowita i wypisze czy jest parzysta czy nieparzysta*/
 
@@ -171,6 +175,7 @@ printf ("liczba %d jest nieparzysta \n",n);
 return 0;
 }
 ```
+zad.4
 ```c
 /*Wczyta 2 liczby całkowite i wypisze ktora z nich jest wieksza JESZCZE ZLE
 
