@@ -180,10 +180,13 @@ main()
   int n,n2;
   prinf ("podaj liczbe \n");
   scanf ("%d", &n);
-  printf ("%d\n", n, n2);
+  printf ("podaj druga liczbe \n");
+  scanf ("%d", &n2);
 
   if(n=n)
     printf ("liczby %d  sa rowne \n",n,n2);
     else
       printf ("liczby %d sa rozne od siebie \n",n,n2);
+}
+
 ```
