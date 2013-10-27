@@ -117,3 +117,20 @@ for(i=i-1;i>=0;i--) printf(" %i ",wynik[i]);
 }
 
 ```
+#Zajecia 3 niedziela
+```c
+/*Wczyta liczbe calkowita i wypisze czy jest wieksza od 5*/
+
+#include <stdio.h>
+main()
+{
+  int liczba;
+ printf ("podaj liczbe");
+ scanf ("%d",&liczba);
+ printf ("%d",liczba);
+ if(liczba>5)
+   printf ("liczba %d  wieksza niz 5\n",liczba);
+  else
+    printf ("liczba %d jest mniejsza lub rowna 5\n",liczba);
+}
+
