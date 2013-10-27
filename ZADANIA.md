@@ -217,3 +217,4 @@ main()
   }
 }
 ```
+#ZADANIA Z KARTKI - ZADANIA Z JEZYKA C (pętle i tabele - zadania elementarne)
