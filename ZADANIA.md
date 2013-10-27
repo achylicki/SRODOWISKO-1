@@ -133,4 +133,23 @@ main()
   else
     printf ("liczba %d jest mniejsza lub rowna 5\n",liczba);
 }
+```
+```c
+/*Wczyta liczbe calkowita i wypisze czy jest dodatnia,ujemna czy rowna 0*/
 
+#include <stdio.h>
+main()
+{
+  int liczba;
+ printf ("podaj liczbe \n");
+ scanf ("%d", &liczba);
+ printf ("%d\n",liczba);
+ if(liczba>0)
+   printf ("liczba %d dodatnia \n",liczba);
+ else if (liczba<0)
+   printf ("liczba %d jest ujemna \n",liczba); 
+ else
+   printf ("liczba %d rowna 0 \n",liczba);
+ return 0;
+}
+```
