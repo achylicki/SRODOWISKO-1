@@ -300,6 +300,18 @@ int tab[]={1,3,7,8,9};
  }
 }
 ```
+zad1 poprawione
+```c
+#include<stdio.h>
+int main (){
+  int tab[]={1,3,7,8,9};
+  int a;
+    for (a=0; a<=4; a=a++)
+    printf (" %i ", tab[a]);
+
+  return 0;
+}   
+```
 zle zad 5
 ```c
 #include <stdio.h>
@@ -317,5 +329,19 @@ for (i=0;i<=4;i++){
 if(n<=o)
   printf("%lf");
  }
+}
+```
+zad 5 poprawione
+```c
+#include<stdio.h>
+int main (){
+  int tab[5];
+int a;
+  for (a=0; a<=4; a++)
+  scanf ("%i", &tab[a]);
+      for (a=4; a>=0; a=a-1)
+    printf (" %i", tab[a]);
+
+  return 0;
 }
 ```
