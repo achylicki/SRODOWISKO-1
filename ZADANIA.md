@@ -345,3 +345,45 @@ int a;
   return 0;
 }
 ```
+zad 8
+```c
+#include<stdio.h>
+int main (){
+  int tab[5];
+int a;
+//scanowanie do tabeli
+  for (a=0; a<=4; a++)
+  scanf ("%i", &tab[a]);
+//wyświetlenie wyników w tabeli
+  for (a=0; a<=4; a++)
+  printf (" %i ", tab[a]);
+  printf (" \n\n");
+//zamiana komórek miejscami
+  tab[0]=tab[4];
+   for (a=0; a<=4; a=a++)
+    printf (" %i ", tab[a]);
+  printf (" \n\n");
+return 0;
+}
+```
+zad 10
+```c
+#include<stdio.h>
+int main (){
+  int tab[5];
+  int tabela[5];
+int a;
+//scanowanie do tabeli
+  for (a=0; a<=4; a++)
+  scanf ("%i", &tab[a]);
+//wyświetlenie wyników w tabeli
+  for (a=0; a<=4; a++)
+  printf (" %i ", tab[a]);
+  printf (" \n\n");
+//dwukrotnie powiększenie wartości w tabeli pierwszej
+     for (a=0; a<=4; a=a++)
+    printf (" %i ", 2*tab[a]);
+  printf (" \n\n");
+return 0;
+}
+```
