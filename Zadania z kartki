@@ -1,1 +1,53 @@
-#ZADANIA Z JEZYKA C (pętle i tabele- zadania elementarne)
+Zadania z języka C (pętle i tabele – zadania elementarne)
+Napisać program, który:
+1.
+zadeklaruje tablicę 5 liczb całkowitych w następujący sposób: int tab[]={1,3,7,8,9}, a
+następnie wypisze na ekran jej zawartość;
+2.
+zadeklaruje tablicę 5 liczb całkowitych w następujący sposób: int tab[]={1,3,7,8,9}, a
+następnie wypisze na ekran jej zawartość w odwrotnej kolejności;
+3.
+zadeklaruje tablicę 5 liczb całkowitych i uzupełni ją kolejnymi potęgami liczby 2, a
+następnie wypisze na ekran jej zawartość;
+4.
+wczyta od użytkownika dane do pięcioelementowej tablicy liczb całkowitych, a następnie
+wypisze na ekran jej zawartość;
+5.
+wczyta od użytkownika dane do pięcioelementowej tablicy liczb całkowitych, a następnie
+wypisze na ekran jej zawartość w odwrotnej kolejności;
+6.
+wczyta od użytkownika dane do pięcioelementowej tablicy liczb całkowitych, a następnie
+wypisze na ekran sumę jej elementów;
+7.
+wczyta od użytkownika dane do pięcioelementowej tablicy liczb całkowitych, a następnie
+wypisze na ekran ilość parzystych liczb do niej wpisanych;
+8.
+wczyta od użytkownika dane do pięcioelementowej tablicy liczb całkowitych, a następnie
+przestawi jej pierwszy element z ostatnim i wypisze całą tablicę na ekran;
+9.
+zadeklaruje dwie pięcioelementowe tablice liczb całkowitych, wczyta dane do pierwszej z
+tabel, a następnie przekopiuje dane do drugiej i wypisze na ekran zawartość drugiej tabeli;
+10.
+zadeklaruje dwie pięcioelementowe tablice liczb całkowitych, wczyta dane do pierwszej z
+tabel, a następnie przekopiuje dwukrotnie powiększone dane do drugiej i wypisze na ekran
+zawartość drugiej tabeli;
+11.
+zadeklaruje dwie tablice liczb całkowitych, jedną pięcioelementową, a drugą dwa razy
+większą, wczyta dane do pierwszej z tabel, a następnie przekopiuje dwa razy dane do
+drugiej i wypisze na ekran zawartość drugiej tabeli;
+12.
+wczyta od użytkownika dane do pięcioelementowej tablicy liczb całkowitych, a następnie
+wypisze jej największy element na ekran;
+13.
+wczyta od użytkownika dane do pięcioelementowej tablicy liczb całkowitych, a następnie
+wypisze jej najmniejszy element na ekran;
+14.
+wczyta od użytkownika dane do pięcioelementowej tablicy liczb całkowitych, a następnie
+zadeklaruje drugą pięcioelementową tablicę liczb całkowitych, do której kolejno będzie
+wpisywać co raz to większe elementy pierwszej tabeli, a na koniec wypisze na ekran
+zawartość obu tabel;
+15.
+wczyta od użytkownika dane do pięcioelementowej tablicy liczb całkowitych, a następnie
+zadeklaruje drugą pięcioelementową tablicę liczb całkowitych, do której kolejno będzie
+wpisywać co raz to mniejsze elementy pierwszej tabeli, a na koniec wypisze na ekran
+zawartość obu tabel
