@@ -153,3 +153,21 @@ main()
  return 0;
 }
 ```
+```c
+/*Wczyta liczbe calkowita i wypisze czy jest parzysta czy nieparzysta*/
+
+#include <stdio.h>
+main()
+{
+  int n;
+  printf ("podaj liczbe \n");
+scanf ("%d", &n);
+printf ("%d\n", n);
+
+if(n%2==0)
+printf ("liczba %d jest parzysta \n",n);
+else
+printf ("liczba %d jest nieparzysta \n",n);
+return 0;
+}
+
