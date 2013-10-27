@@ -170,4 +170,20 @@ else
 printf ("liczba %d jest nieparzysta \n",n);
 return 0;
 }
+```
+```c
+/*Wczyta 2 liczby całkowite i wypisze ktora z nich jest wieksza JESZCZE ZLE
 
+#include <stdio.h>
+main()
+{
+  int n,n2;
+  prinf ("podaj liczbe \n");
+  scanf ("%d", &n);
+  printf ("%d\n", n, n2);
+
+  if(n=n)
+    printf ("liczby %d  sa rowne \n",n,n2);
+    else
+      printf ("liczby %d sa rozne od siebie \n",n,n2);
+```
