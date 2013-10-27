@@ -331,7 +331,7 @@ if(n<=o)
  }
 }
 ```
-zad 5 poprawione
+zad 5 poprawione - trzeba do tego stworzyc plik z danymi
 ```c
 #include<stdio.h>
 int main (){
