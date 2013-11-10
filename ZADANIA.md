@@ -389,17 +389,26 @@ return 0;
 ```
 #10.11.13
 
-zad.1 - do poprawienia
+zad.1
 ```c
 //Napisac program w C sprawdzajacy czy dana liczba jest pierwsza//
-#include <stdio.h>
-int main()
-{
-  int a;
-printf("Podaj liczbe:");
-scanf("%i",&a);
-if(a%2==0) printf("Podana liczba nie jest liczba pierwsza\n");
- else printf("podana liczba jest liczba pierwsza\n");
-return 0;
+#include<stdio.h>
+main(){
+  int i, m, l, k;
+  k=0;
+  printf ("Podaj liczbę \n");
+  scanf (" %d", &i);
+  for (m=1; m<=i; m=m+1){
+    l=i%m;
+    if (l==0)
+      k=k+1;
+  }
+  printf ("Liczba ma %d dzielniki\n\n", k);
+    if (k==2)
+      printf ("Podana liczba jest liczbą pierwszą \n\n");
+    else 
+      printf ("Podana liczba nie jest liczbą pierwszą! \n\n");
+
 }
+
 ```
