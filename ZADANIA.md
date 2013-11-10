@@ -412,3 +412,28 @@ main(){
 }
 
 ```
+zad.2 - chyba ok
+```c
+//Napisac program, ktory dla liczby M podanej z klawiatury ma obliczyc najmniejsza liczbe n, taka ze 1+2+3+...+n>=M
+#include <stdio.h>
+main()
+{
+  int n;
+int suma=0;
+    printf("podaj liczbe\n");
+  scanf("%d",&M);
+  while(suma<M){
+    n=n+1;
+    suma=suma+n;
+    printf("szukana liczba to %d",n);
+```
+zad.3
+```c
+//napisac program,ktory dla liczby podanej z klawiatury wypisuje wszystkie jej dzielniki//
+```
+zad.4
+```c
+//napisac program, ktory zamienia liczbe z systemu dziesietnego na:
+a)dwojkowy
+b)osemkowy
+c)szesnastkowy//
