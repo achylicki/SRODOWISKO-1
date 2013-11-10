@@ -394,7 +394,8 @@ zad.1 - do poprawienia
 //Napisac program w C sprawdzajacy czy dana liczba jest pierwsza//
 #include <stdio.h>
 int main()
-int a
+{
+  int a;
 printf("Podaj liczbe:");
 scanf("%i",&a);
 if(a%2==0) printf("Podana liczba nie jest liczba pierwsza\n");
