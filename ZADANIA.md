@@ -452,5 +452,17 @@ zad.4
 ```
 zad.5
 ```c
-//jaka jest roznica pomiedzy j=i++; a j=++i
+/* jaka jest roznica pomiedzy j=i++; a j=++i */
+#include <stdio.h>
+main()
+{
+int i;
+i = 2;
+printf( "%d ", i++ );
+printf( "%d ", i );
+i = 2;
+printf( "%d ", ++i );
+printf( "%d ", i );
+}
+/* Chodzi o to, że całe wyrażenie (i++) ma wartość taką, jak przed zwiększeniem o jeden; natomiast całe wyrażenie (++i) ma wartość taką, jak po zwiększeniu o jeden. */
 ```
