@@ -433,7 +433,9 @@ zad.3
 ```
 zad.4
 ```c
-//napisac program, ktory zamienia liczbe z systemu dziesietnego na:
-a)dwojkowy
-b)osemkowy
-c)szesnastkowy//
+//napisac program, ktory zamienia liczbe z systemu dziesietnego na: a)dwojkowy b)osemkowy c)szesnastkowy//
+```
+zad.5
+```c
+//jaka jest roznica pomiedzy j=i++; a j=++i
+```
