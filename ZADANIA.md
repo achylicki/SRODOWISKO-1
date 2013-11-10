@@ -412,7 +412,7 @@ main(){
 }
 
 ```
-zad.2 - chyba ok
+zad.2 - cos nie teges
 ```c
 //Napisac program, ktory dla liczby M podanej z klawiatury ma obliczyc najmniejsza liczbe n, taka ze 1+2+3+...+n>=M
 #include <stdio.h>
@@ -426,6 +426,8 @@ int suma=0;
     n=n+1;
     suma=suma+n;
     printf("szukana liczba to %d",n);
+    }
+    }
 ```
 zad.3
 ```c
