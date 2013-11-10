@@ -430,6 +430,21 @@ int suma=0;
 zad.3
 ```c
 //napisac program,ktory dla liczby podanej z klawiatury wypisuje wszystkie jej dzielniki//
+#include <stdio.h>
+int main()
+{
+  int i,m,l,k;
+  k=0;
+  printf ("podaj liczbe \n");
+  scanf ("%d",&i);
+  for (m=1; m<=i;m=m+1){
+    l=i%m;
+    if (l==0)
+      k=k+1;
+  }
+  printf ("liczba ma %d dzielniki(ow)\n\n", k);
+}
+
 ```
 zad.4
 ```c
