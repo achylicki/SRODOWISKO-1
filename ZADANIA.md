@@ -407,7 +407,7 @@ main(){
     if (k==2)
       printf ("Podana liczba jest liczbą pierwszą \n\n");
     else 
-      printf ("Podana liczba nie jest liczbą pierwszą! \n\n");
+      printf ("Podana liczba nie jest liczbą pierwszą \n\n");
 
 }
 
