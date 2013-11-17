@@ -552,3 +552,22 @@ main(){
   printf(" \nIloczyn skalarny wynosi \n%lf\n",wynik);
  }
 ```
+wbzyl losowe próbka
+```c
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main(int argc, char* argv[])
+{
+  int i;
+  for (i=0; i=<1; i=i+1){
+    printf("%lf\n", (double)(rand()%100)/100);
+
+    j=0;
+  for(i=0; i=<11;i++){
+    P("%.1F %lf \n", j, j*j);
+    j=j+0.1;
+
+  return 0;
+}
+```
