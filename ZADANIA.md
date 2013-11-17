@@ -529,7 +529,7 @@ printf( "%d ", i );
 
 zad.1
 ```c
-/* Program wczytujacy kolejno dwie tablice liczb rzeczywistych (double) tej samej długości i drukujący ich iloczyn skalarny */
+/* Program wczytujacy kolejno dwie tablice liczb rzeczywistych (double) tej samej długości i drukujący ich iloczyn skalarny. Iloczyn skalarny=a[0]*b[0]+a[1]*b[1]+...a[n-1]*b[n-1] */
 include<stdio.h>
 main(){
    int i;
