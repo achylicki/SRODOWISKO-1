@@ -525,3 +525,30 @@ printf( "%d ", i );
 }
 /* Chodzi o to, że całe wyrażenie (i++) ma wartość taką, jak przed zwiększeniem o jeden; natomiast całe wyrażenie (++i) ma wartość taką, jak po zwiększeniu o jeden. */
 ```
+#17.11.13
+
+zad.1
+```c
+/* Program wczytujacy kolejno dwie tablice liczb rzeczywistych (double) tej samej długości i drukujący ich iloczyn skalarny */
+include<stdio.h>
+main(){
+   int i;
+  double wynik =0;
+  double a[5];
+  for(i=0;i<5;i++)
+{
+      printf(" Podaj %i -ta liczbe a: ", i);
+      scanf("%le",&a[i]);
+    }
+  double b[5];
+  printf("\n\n");
+  for(i=0;i<5;i++)
+{
+      printf(" Podaj %i -ta liczbe b: ", i);
+      scanf("%le",&b[i]);
+      wynik=wynik+a[i]*b[i];
+    }
+
+  printf(" \nIloczyn skalarny wynosi \n%lf\n",wynik);
+ }
+```
