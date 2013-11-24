@@ -690,7 +690,7 @@ for (i=0; i<n; i++)
 }
 ```
 zad.4 troche inaczej
-```
+```c
 c/* Napisac funkcję, która przyjmuje 1 argument typu int N, a nastepnie wyswietla "dzien dobry" n razy  ( bo nie musi nic pobierac,wiec moze byc bez int n w nawiasach ) */
 #include <stdio.h> 
 int ile_razy ()
