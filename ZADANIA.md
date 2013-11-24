@@ -571,3 +571,26 @@ int main(int argc, char* argv[])
   return 0;
 }
 ```
+#ZAJECIA 6
+
+zad1
+```
+#include <stdio.h>
+main ()
+{
+int n;
+printf("\nPodaj liczbe: ");
+scanf("%d",&n);
+switch (n)
+  {
+  case 0: printf("Zero\n");
+  case 1:
+  case 2: printf("Mala\n");
+    break;
+  case 3: 
+  case 4: 
+  case 5: printf("Srednia");
+  case 6: printf("duza");
+
+  }}
+  ```
