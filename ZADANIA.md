@@ -730,5 +730,33 @@ main ()
   silnia(n, wynik, i);
 }
 ```
+zad6.
+```c
+/* funkcja kalkulator */
+#include <stdio.h>
+float oblicz (float lewy, char op, float prawy, float wynik)
+{
+printf("Podaj operacje: ");
+  scanf("%c",&op);
+  printf("Podaj lewy: ");
+  scanf("%f",&lewy);
+  printf("Podaj prawy: ");
+  scanf("%f",&prawy);
+  switch (op)
+    {
+   case '+': wynik=lewy+prawy; return wynik;
+   case '-': wynik=lewy-prawy; return wynik;
+   case '*': wynik=lewy*prawy; return wynik;
+   case '/': wynik=lewy/prawy; return wynik; 
+   default : printf("blad"); break;
+    }
+}
+main ()
+{
+  float lewy, prawy, wynik;
+  char op;
+  printf("%3.3f",oblicz(lewy, op, prawy, wynik));
+}
+```
 
 
