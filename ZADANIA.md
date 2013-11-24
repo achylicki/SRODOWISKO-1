@@ -711,6 +711,7 @@ for (i=0; i<n; i++)
 }
 ```
 zad 5.
+```c
 #include <stdio.h>
 int silnia (int n, int wynik, int i)
 {
