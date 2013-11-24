@@ -669,3 +669,23 @@ switch (b)
   }
 }
 ```
+zad.4
+```c
+/* Napisac funkcję, która przyjmuje 1 argument typu int N, a nastepnie wyswietla "dzien dobry" n razy */
+#include <stdio.h>
+int ile_razy (int n)
+{
+scanf("%i",&n);
+return n;
+}
+main()
+{
+int i,n;
+printf("Podaj liczbe n: ");
+n=ile_razy(n);
+for (i=0; i<n; i++)
+  {
+    printf("Dzien dobry\n");
+  }
+}
+
