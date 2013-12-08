@@ -797,3 +797,59 @@ main()
   printf("suma wszyskich elementow tablicy to: %d",suma);
 }
 ```
+#Zajecia 7
+
+przyklad egzaminowy:
+```c
+#include <stdio.h>
+int n=10,q=2;
+main()
+{ int fun (int);
+  void f(void);
+  int n=0, p=5;
+  n=fun(p);
+  printf ("A;w main,n=%d,p=%d,q=%d\n",n,p,q);
+  f();
+}
+int fun (int p){
+  int q;
+  q=2*p+n;
+  printf ("B; w fun,n=%d,p=%d,q=%d\n",n,p,q);
+  return q; }
+void f (void) {
+  int p=q*n;
+  printf("C; w f, n=%d,p=%d,q=%d\n",n,p,q);
+}
+```
+zad 1.
+```c
+/* b) Napisać funkcje o nazwie f2, która wyświetli "dzień dobry" otrzymaną w argumencie liczbe razy, przy czym argument będzie typu int funkcja zaś nie bedzie przekazywac zadnej wartosci */
+#include <stdio.h>
+//funkcja wyswietla dzien dobry
+void f1 ()
+{
+  printf("Funkcja 1: dzien dobry\n");
+}
+void f2 (int a)
+{
+  int i;
+  printf("Funkcja 2: Podaj liczbe: ");
+  scanf("%i",&a);
+  for (i=0; i<a; i++)
+    {
+  printf("\ndzien dobry");
+    }
+}
+int f3 (int a)
+{
+  int i;
+  printf("Funkcja 3: Podaj liczbe: ");
+  scanf("%i", &a);
+  for (i=0;i<a; i++)
+    {
+      printf("dzien dobry");
+    }
+return 0
+  }
+}
+```
