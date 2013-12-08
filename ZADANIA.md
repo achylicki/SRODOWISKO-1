@@ -956,3 +956,30 @@ main()
   printf("silnia z podanej liczby wynosi %d\n",a);
 }
 ```
+zad 5.
+```c
+/* NWD (a,a)=a
+NWD (a,b)= NWD (a,b-a), if(b>a)
+NWD (a,b)= NWD (a-b,b), if(a>b)
+np: nwd (24,6)= nwd(24-6,6)=nwd(12,6)=NWD(6,6)=6 */
+
+#include<stdio.h>
+int dzielnik(int a,int b){
+
+  if(a==b)
+  return a;
+  if(b>a)
+    return dzielnik(a,b-a);
+  if(a>b)
+    return dzielnik(a-b,b);
+}
+main()
+{
+  int a,b;
+  printf("podaj pierwsza liczbe\n");
+  scanf("%d", &a);
+  printf("podaj druga liczbe\n");
+  scanf("%d", &b);
+  printf("najwiekszy wspolny dzielnik podanych liczb to: %d \n", dzielnik(a,b));
+	 }
+```
