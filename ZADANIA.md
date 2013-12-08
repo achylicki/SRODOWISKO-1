@@ -853,3 +853,42 @@ return 0
   }
 }
 ```
+zad.2
+```c
+/*Napisać funkcję, ktora będzie otrzymywać jako argumenty dwie liczby rzeczywiste i jeden znak, a nastepnie wykonywać na dwóch liczbach operacje arytmetyczną odpowiadającą znakowi i zwracać jej wynik. Mają byc realizowane operacje +,-,*,/ . Każdy inny znak powinien powodowac wykonanie dodawania.
+  Napisać program korzystający z tej funkcji do wykonania 4 operacji na dwóch liczbach */
+#include<stdio.h>
+int f(int a, int b, char c){
+  int q;
+  switch(c){
+  case '+':
+  q=a+b;
+  break;
+  case '*':
+  q=a*b;
+  break;
+  case '-':
+  q=a-b;
+  break;
+  case '/':
+  q=a/b;
+  break;
+  default:
+    q=a+b;
+  }
+  return q;
+}
+main()
+{
+  int x;
+  printf("podaj pierwsza liczbe: \n");
+  scanf("%d", &x);
+  int y;
+  printf("podaj druga liczbe: \n");
+  scanf("%d", &y);
+  char k;
+  printf("wykonaj działanie: +,-,*,/: \n");
+  scanf("%s", &k);
+  printf("wynik to:%d \n", f(x,y,k));
+}
+```
