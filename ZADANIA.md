@@ -923,11 +923,14 @@ int f(int a){
 
  main()
 {
- int x;
+  int x,n1,n2;
   printf("Podaj liczbe");
   scanf("%d", &x);
- if(f(x) && g(x))
+  n1=f(x);
+  n2=g(x);
+if(n1 && n2)
    printf("liczba jest podzielna przez 6. \n");
  
 }
+
 ```
