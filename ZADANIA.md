@@ -825,7 +825,7 @@ zad 1.
 ```c
 /* b) Napisać funkcje o nazwie f2, która wyświetli "dzień dobry" otrzymaną w argumencie liczbe razy, przy czym argument będzie typu int funkcja zaś nie bedzie przekazywac zadnej wartosci */
 #include <stdio.h>
-//funkcja wyswietla dzien dobry
+/*funkcja wyswietla dzien dobry*/
 void f1 ()
 {
   printf("Funkcja 1: dzien dobry\n");
