@@ -934,3 +934,25 @@ if(n1 && n2)
 }
 
 ```
+zad.4
+```c
+/* silnia z 4,
+0!=1
+n!=n(n-1)!
+ proces: silnia(4)=4*silnia(3)=4*[3*silnia(2)]=4[3*[2*silnia(1)]=4*3*2*[1*silnia(0)]=4*3*2*1*1=24 */
+   #include<stdio.h>
+ int silnia(int n){
+    if(n==0)
+      return 1;
+    else 
+      return n*silnia(n-1);
+  }
+main()
+{
+  int x,a;
+  printf("Podaj liczbe: \n");
+  scanf("%d", &x);
+  a=silnia(x);
+  printf("silnia z podanej liczby wynosi %d\n",a);
+}
+```
