@@ -1007,3 +1007,27 @@ main()
   printf("NWD liczb: %i, %i = %i\n",a,b,NWD(a,b));
 }
 ```
+zad9.
+```c
+/* Napisać funkcje rekurencyjna obliczająca kwadrat liczby naturalnej bez użycia mnożenia w oparciu o własnosci:
+0^2=0
+(n+1)^2=n^2 +2n +1
+ potega (2*0,10)=potega (4*0,5)=4*0*potega(15*0,2) */
+#include<stdio.h>
+double potega (double x,int n){
+  if(n==0) return 1;
+  else if (n%2==0) return potega(x*x, n/2);
+  else return x*potega(x*x, n/2);
+}
+  main()
+  {
+    double a;
+    int b;
+printf("liczba: ");
+scanf("%lf", &a);
+printf("do potegi: ");
+scanf("%d", &b);
+printf("wynosi: %lf", potega(a,b));
+  }
+
+```
