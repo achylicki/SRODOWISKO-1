@@ -956,7 +956,7 @@ main()
   printf("silnia z podanej liczby wynosi %d\n",a);
 }
 ```
-zad 5.
+zad 5. Zad4. Funkcja obliczająca NWD dwóch podanych w programie liczb. Za pomocą odejmowania. 
 ```c
 /* NWD (a,a)=a
 NWD (a,b)= NWD (a,b-a), if(b>a)
@@ -982,4 +982,28 @@ main()
   scanf("%d", &b);
   printf("najwiekszy wspolny dzielnik podanych liczb to: %d \n", dzielnik(a,b));
 	 }
+```
+zad 6.Funkcja obliczaj ca NWD dwóch podanych liczb za pomoca modulo. 
+```c
+/* if(a*b==0)return a+b
+NWD (a,b)=NWD(a%b,b) a>b
+NWD (a,b)=NWD(a,b%a) b>a */
+#include <stdio.h>
+int NWD (int a, int b)
+{
+  if (a*b==0) return a+b;
+  else 
+    if (b>a) return NWD(a,b%a);
+  else 
+    if (a>b) return NWD(a%b,b);
+}
+main()
+{
+  int a,b;
+  printf("Podaj a: ");
+  scanf("%i",&a);
+  printf("Podaj b: ");
+  scanf("%i",&b);
+  printf("NWD liczb: %i, %i = %i\n",a,b,NWD(a,b));
+}
 ```
