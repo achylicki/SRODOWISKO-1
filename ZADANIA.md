@@ -892,3 +892,42 @@ main()
   printf("wynik to:%d \n", f(x,y,k));
 }
 ```
+zad.3
+```c
+/* Napisac dwie funkcje , kazda z argumentem i wynikiem całkowitym. Pierwsza ma sprawdzac czy otrzymany argument jest podzielny przez 2, drugi zas, czy jest podzielny przez 3. Zastosowac te dwie funkcje w programie, ktory bedzie czytal z wejscia liczbe i stwierdzal czy jest podzielna przez 2,3 i przez 6 np:
+
+Podaj liczbe:9
+liczba jest podzielna przez 3
+podaj liczbe:12
+liczba jest podzielna przez 2
+liczba jest podzielna przez 3
+liczba jest podzielna przez 6 */
+
+#include<stdio.h>
+int f(int a){
+  if(a%2==0){
+    printf("liczba jest podzielna przez 2. \n");
+    return 1;
+  }
+  else
+    return 0;
+}
+  int g(int a){
+  if(a%3==0){
+    printf("liczba jest podzielna przez 3. \n");
+    return 1;
+  }
+  else
+    return 0;
+}
+
+ main()
+{
+ int x;
+  printf("Podaj liczbe");
+  scanf("%d", &x);
+ if(f(x) && g(x))
+   printf("liczba jest podzielna przez 6. \n");
+ 
+}
+```
