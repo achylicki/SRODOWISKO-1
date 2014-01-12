@@ -1031,3 +1031,25 @@ printf("wynosi: %lf", potega(a,b));
   }
 
 ```
+#PRZYKLADOWE EGZAMINOWE
+
+zad.1
+```
+#include <stdio.h>
+main(){
+  int t[3];
+  int i,j;
+  int *adt;
+ for (i=0,j=0;i<3;i++) t[i]=j++ +i; /*1*/  /* t[0]=(0+0), t[1]={1+1), t[2]=(2+2)
+ for (i=0;i<3;i++) printf ("%d",t[i]); /*2*/
+printf ("\n");
+for (i=0;i<3;i++) printf ("%d",*(t+i)); /*3*/
+printf ("\n");
+ for (adt=t; adt<t+3;adt++) printf("%d",*adt); /*4*/
+printf ("\n");
+for (adt=t+2;adt>=t;adt--)
+printf ("%d",*adt); /*5*/
+printf ("\n");
+}
+```
+
