@@ -1034,7 +1034,7 @@ printf("wynosi: %lf", potega(a,b));
 #PRZYKLADOWE EGZAMINOWE
 
 zad.1
-```
+```c
 #include <stdio.h>
 main(){
   int t[3];
